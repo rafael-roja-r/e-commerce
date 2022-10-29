@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Jost', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;600&display=swap');
+
+.header{
+    display: flex;
+    background: rgb(239, 239, 239);
+}
+.headerlogo{
+    padding: 10px;
+    
+}
+.headerbuscador{
+    width: 800px;
+    margin: 10px auto;
+   
+    
+}
+.headerbuscarproducto{
+    width: 84%;
+    height: 40px;
+    margin: 7px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+       
+}
+.headerbuscarproductobtn{
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #2a7ae4;
+    border-radius: 20px;
+}
+.headerbuscarproductobtn:hover{
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    outline: none;
+    background: #2a7ae4;
+    border: 1px solid #2a7ae4;
+    border-radius: 20px;
+}
+
+
+.headerboton{
+    width: 300px;
+    margin: 10px auto;
+   
+}
+.headerbotonlogin{
+    width: 250px;
+    height: 40px;
+    margin: 8px 8%;
+    outline: none;
+    border: 1px solid #2a7ae4;
+    border-radius: 20px;
+}
+.headerbotonlogin:hover{
+    width: 250px;
+    height: 40px;
+    background:#2a7ae4;
+    color: #fff;
+    margin: 8px 8%;
+    outline: none;
+    border: 1px solid #2a7ae4;
+    border-radius: 20px;
+}

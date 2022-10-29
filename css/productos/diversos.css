@@ -1,0 +1,93 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 100;
+}
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;600&display=swap');
+
+.productosdiversos {
+    width: 90%;
+    margin: 10px auto;
+}
+.productosdiversosdetalles{
+    display: flex;
+}
+.productosdiversostitulo{
+    width: 80%;
+    color: black;
+    margin: 10px;
+}
+.productosdiversosvermas{
+    width: 200px;
+    height: 30px;
+    right: 10px;
+    margin: 10px;
+    outline: none;
+    border: 1px solid #2a7ae4;
+    border-radius: 20px;
+}
+.productosdiversosvermas:hover{
+    width: 200px;
+    height: 30px;
+    right: 10px;
+    margin: 10px;
+    color: #ffffff;
+    background: #2a7ae4;;
+    outline: none;
+    border: 1px solid #2a7ae4;
+    border-radius: 20px;
+}
+.productosdiversoscard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.productosdiversoscardimg{
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.productosdiversoscardimg:hover{
+    width: 200px;
+    margin: 10px;    
+    background: #f4f4f4;
+}
+
+.productosdiversoscardimgimg{
+    display: block;
+    margin: 12px;
+}
+.productosdiversoscardetalles{
+    width:100% ;
+}
+.productosdiversoscardproducto{
+    margin: 5px 0px 0px 10px;
+}
+.productosdiversoscardunidad{
+    margin: 5px 0px 0px 10px;
+}
+.productosdiversoscardprecio{
+    margin: 5px 0px 0px 10px;
+}
+.productosdiversoscardbtn{
+    width: 100px;
+    height: 20px;
+    margin: 10px auto;
+    padding: 10px;
+    background: #f8f8f8;
+    border: 1px solid #2a7ae4;
+    border-radius: 20px;
+}
+.productosdiversoscardbtn:hover{
+    width: 100px;
+    height: 20px;
+    margin: 10px auto;
+    color: #ffffff;
+    padding: 10px;
+    outline: none;
+    border-radius: 20px;
+    background: #2a7ae4;
+    border: 1px solid #2a7ae4;
+}

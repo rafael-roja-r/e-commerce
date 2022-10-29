@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Jost', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;600&display=swap');
+
+@media only screen and (max-width: 600px)  {
+    .headerlogo{
+        display: none;
+    }
+    .headerbuscador{
+        width: 310px;
+        margin: 5px auto;
+       
+
+    }
+    .headerbuscarproductobtn{
+        width: 80px;
+        margin: 5px auto;
+    }
+    .headerbuscarproducto{
+        width: 200px;
+        margin: 5px 12px;
+        
+    }
+    .headerboton{
+        width: 80px;
+        margin: 5px auto;
+    }
+    .headerbotonlogin{
+        width: 100%;
+        margin: 5px auto;
+       
+    }
+
+.productobanerimg {
+    width: 100%;
+    height: calc(100vh - 550px);
+}
+
+.productobanerimg img {
+    margin: -10px 0px 0px -180px;
+}
+.productotextos{
+    position: relative;
+    top: -120px ;
+    margin-left:40px ;
+}
+.productostarwarscardimg{
+    width: 170px;
+    margin: 10px;
+
+}
+.productostarwarscardimgimg{
+    width: 86%;
+}
+.productostarwarscardimg:hover{
+    width: 170px;
+    margin: 10px;    
+    background: #f4f4f4;
+}
+
+/*
+
+*/
+
+.productosconsolacardimg{
+    
+    width: 170px;
+    margin: 10px;
+ 
+}
+.piedepaginalogocard{
+    margin: 10px 20%;
+    
+}
+.productosconsolacardimgimg{
+    width: 86%;
+}
+.productosconsolacardimg:hover{
+    width: 170px;
+    margin: 10px;    
+    background: #f4f4f4;
+}
+
+/*
+
+*/
+
+
+
+.productosdiversoscardimg{
+    width: 170px;
+    margin: 10px;
+
+ 
+}
+.productosdiversoscardimgimg{
+    width: 86%;
+    
+}
+.productosdiversoscardimg:hover{
+    width: 170px;
+    margin: 10px;    
+    background: #f4f4f4;
+    
+}
+
+.piedepaginalogo{
+    width: 100%;
+}
+.piedepaginainfo{
+    width: 300px;
+    margin: 10px 16%;
+   
+}
+.piedepaginahablemos{
+    width: 80%;
+    margin: 10px auto;
+    
+}
+.piedepaginahablemosnombre{
+    width: 80%;
+}
+.piedepaginahablemosmensaje{
+    width: 80%;
+}
+
+.infoweb{
+    width: 80%;
+    margin: 10px auto;
+
+}
+
+}
